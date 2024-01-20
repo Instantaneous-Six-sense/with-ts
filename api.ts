@@ -32,7 +32,7 @@ type C001 = {
 }
 
 async function getContents001() {
-  const data = await axios.get(
+  const data = await axios.get<any>(
     "https://6bdhahizcf.execute-api.ap-northeast-2.amazonaws.com/lg/contents/C001"
   );
 
